@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		03FC47EA52E7CDFC09DFD919 /* Pods-FFAuthorKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFAuthorKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFAuthorKit_Example/Pods-FFAuthorKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2C4C34BE93ADBB7D81CACE56 /* Pods-FFAuthorKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFAuthorKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFAuthorKit_Tests/Pods-FFAuthorKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2E4DDD54B9BC3789669809B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2E4DDD54B9BC3789669809B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FFAuthorKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFAuthorKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,10 +60,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85AD8F109708B391E1D39F85 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		85AD8F109708B391E1D39F85 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F343E1C53E332271D65AB43 /* Pods_FFAuthorKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFAuthorKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98BE45ED04083AA379271CF7 /* FFAuthorKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FFAuthorKit.podspec; path = ../FFAuthorKit.podspec; sourceTree = "<group>"; };
+		98BE45ED04083AA379271CF7 /* FFAuthorKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFAuthorKit.podspec; path = ../FFAuthorKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E7A58BA9244E9682AA9BA31B /* Pods_FFAuthorKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFAuthorKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F33EEA02B4A23B4A3EDF4A81 /* Pods-FFAuthorKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFAuthorKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFAuthorKit_Example/Pods-FFAuthorKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FA89975835323E8526436886 /* Pods-FFAuthorKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFAuthorKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFAuthorKit_Tests/Pods-FFAuthorKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -385,11 +385,39 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FFAuthorKit_Example/Pods-FFAuthorKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FFAPIsKit/FFAPIsKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FFAuthorKit/FFAuthorKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FFCategoryKit/FFCategoryKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FFConfigsKit/FFConfigsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FFMainViewKit/FFMainViewKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FFReformerKeysKit/FFReformerKeysKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FFToolsKit/FFToolsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFAPIsKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFAuthorKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFCategoryKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFConfigsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFMainViewKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFReformerKeysKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFToolsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

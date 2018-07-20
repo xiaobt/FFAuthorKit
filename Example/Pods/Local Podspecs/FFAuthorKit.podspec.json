@@ -1,0 +1,51 @@
+{
+  "name": "FFAuthorKit",
+  "version": "0.1.0",
+  "summary": "A short description of FFAuthorKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiaobt/FFAuthorKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "juechufengshenger@126.com": "xiaobing.tang@zhaopin.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/xiaobt/FFAuthorKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FFAuthorKit/Classes/**/*",
+  "dependencies": {
+    "FFAPIsKit": [
+
+    ],
+    "FFReformerKeysKit": [
+
+    ],
+    "FFMainViewKit": [
+
+    ],
+    "FFToolsKit": [
+
+    ],
+    "FFCategoryKit": [
+
+    ],
+    "FFConfigsKit": [
+
+    ],
+    "YYWebImage": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ReactiveCocoa": [
+      "~> 2.5"
+    ]
+  }
+}

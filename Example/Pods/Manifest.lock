@@ -1,0 +1,83 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - FFAPIsKit (0.3.0):
+    - AFNetworking (~> 3.1.0)
+    - FFToolsKit
+  - FFAuthorKit (0.1.0):
+    - FFAPIsKit
+    - FFCategoryKit
+    - FFConfigsKit
+    - FFMainViewKit
+    - FFReformerKeysKit
+    - FFToolsKit
+    - Masonry
+    - ReactiveCocoa (~> 2.5)
+    - YYWebImage
+  - FFCategoryKit (0.1.0)
+  - FFConfigsKit (0.1.0)
+  - FFMainViewKit (0.1.0)
+  - FFReformerKeysKit (0.1.0)
+  - FFToolsKit (0.1.0):
+    - FMDB
+    - MBProgressHUD
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - FFAuthorKit (from `../`)
+
+EXTERNAL SOURCES:
+  FFAuthorKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FFAPIsKit: c115aaa1944fd7e5d18b134aa9faeb5b8d642ecf
+  FFAuthorKit: 8ab47e0c34a0f7898cacadbed36df1383b87b1d5
+  FFCategoryKit: 34f7cfec78e6f0b8115f55f3b1f4f1ff1bbe0013
+  FFConfigsKit: 889d7011f15fd8334830efb018b339533fe42b0c
+  FFMainViewKit: 812cdf506867166b53abace1e6daec640e8d2116
+  FFReformerKeysKit: a7f1fde3d20c7e8c90b5974ee2bb80732d87f86e
+  FFToolsKit: 4f01f9d1fddc307d6e5dfbf6bc5538a260340032
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: 017217dc934a3ed447255f3f9727d594259e59d6
+
+COCOAPODS: 1.4.0

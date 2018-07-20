@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/juechufengshenger@126.com/FFAuthorKit'
+  s.homepage         = 'https://github.com/xiaobt/FFAuthorKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'juechufengshenger@126.com' => 'xiaobing.tang@zhaopin.com.cn' }
-  s.source           = { :git => 'https://github.com/juechufengshenger@126.com/FFAuthorKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/xiaobt/FFAuthorKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -38,5 +38,16 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'FFAPIsKit'
+  s.dependency 'FFReformerKeysKit'
+  s.dependency 'FFMainViewKit'
+  s.dependency 'FFToolsKit'
+  s.dependency 'FFCategoryKit'
+  s.dependency 'FFConfigsKit'
+  
+  #三方
+  s.dependency 'YYWebImage'
+  s.dependency 'Masonry'
+  s.dependency 'ReactiveCocoa', '~> 2.5'
+  
 end
