@@ -90,7 +90,6 @@
 
 #pragma mark - handle data
 - (void)handleData {
-    /*先注释
     @weakify(self)
     [RACObserve(self, dataDict) subscribeNext:^(NSDictionary *data) {
         @strongify(self)
@@ -112,8 +111,6 @@
             }
         }];;
     }];
-    
-    */
 }
 
 #pragma mark - getter
